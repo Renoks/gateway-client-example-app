@@ -243,7 +243,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:weblabstandard/renoks-gateway-client.git",
-                "reference": "392d6a7303bb66355dadd34d89b30bcab00af0e7"
+                "reference": "3beb43455d53d88afba9836054842c3f8b203e4e"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.2"
@@ -259,14 +259,14 @@
             },
             "autoload-dev": {
                 "psr-4": {
-                    "WeblabLv\\Tests\\": "tests/"
+                    "WeblabLv\\Renoks\\Tests\\": "tests/"
                 }
             },
             "license": [
                 "MIT"
             ],
             "description": "Client for Renoks Gateway",
-            "time": "2017-07-12 11:37:58"
+            "time": "2017-07-12 12:55:05"
         }
     ],
     "packages-dev": [

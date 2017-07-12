@@ -15,5 +15,12 @@ $client = new WebLabLv\Renoks\Client\PriceClient(
 );
 
 $client->sendRequest();
-$arrays = $client->getResponse();
-print_r(current($arrays));
+echo substr($client->getResponseJson(), 0, 100);
+echo PHP_EOL;
+echo PHP_EOL;
+print_r(current($client->getResponseArray()));
+echo PHP_EOL;
+echo PHP_EOL;
+print_r(current($client->getResponseEntities()));
+echo PHP_EOL;
+echo PHP_EOL;
