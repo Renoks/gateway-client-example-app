@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$client = new WebLabLv\Renoks\Client\PriceClient('renoks-gateway-eumbrass.weblab.lv/api/v0.1', 'client1', 'clientpass');
+$client = new WebLabLv\Renoks\Client\PriceClient('renoks-gateway-eumbrass.weblab.lv/api/v0.1', 'client', 'client');
 $client->sendRequest();
 
 echo PHP_EOL;
