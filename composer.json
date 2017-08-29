@@ -1,18 +1,12 @@
 {
-  "name": "renoks/gateway-client-example-app",
-  "description": "Example app to show usage off client for Renoks Gateway",
-  "type": "project",
-  "license": "MIT",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/renoks/gateway-client"
+    "name": "renoks/gateway-client-example-app",
+    "description": "Example app to show usage off client for Renoks Gateway",
+    "type": "project",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "require": {
+        "renoks/gateway-client": "^1.0.0"
     }
-  ],
-  "require-dev": {
-    "phpunit/phpunit": "^6.1"
-  },
-  "require": {
-    "renoks/gateway-client": "dev-master"
-  }
 }

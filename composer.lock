@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7ddac0174dabf1d4b9efedfb444e90e",
-    "content-hash": "04f40c2111b696224e6a6fe772fe3bf8",
+    "hash": "895551e2f2ec200ec35c73e95b017cd2",
+    "content-hash": "e45433afda7817b5f0a9efee44117621",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -240,7 +240,7 @@
         },
         {
             "name": "renoks/gateway-client",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/renoks/gateway-client.git",
@@ -264,19 +264,11 @@
                     "WebLabLv\\Renoks\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "WeblabLv\\Renoks\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Client for Renoks Gateway",
-            "support": {
-                "source": "https://github.com/renoks/gateway-client/tree/master",
-                "issues": "https://github.com/renoks/gateway-client/issues"
-            },
             "time": "2017-08-29 13:00:22"
         }
     ],
@@ -1733,9 +1725,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "renoks/gateway-client": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
