@@ -1,5 +1,5 @@
 {
-  "name": "renoks/renoks-gateway-client-example-app",
+  "name": "renoks/gateway-client-example-app",
   "description": "Example app to show usage off client for Renoks Gateway",
   "type": "project",
   "license": "MIT",
