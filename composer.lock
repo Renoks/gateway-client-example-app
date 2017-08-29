@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db7f3573ef3a72e81c3bf2865176311c",
-    "content-hash": "80ba8d8131bf973c2e75bad4642b23c1",
+    "hash": "3d939554cbf6af5755facea2162c06fd",
+    "content-hash": "64f9a72e9d3fe3a90aa99cd478ec5d70",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -243,8 +243,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:weblabstandard/renoks-gateway-client.git",
+                "url": "https://github.com/renoks/gateway-client.git",
                 "reference": "59afca3fe4d9567abd39901131657b13b43f3f12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/renoks/gateway-client/zipball/59afca3fe4d9567abd39901131657b13b43f3f12",
+                "reference": "59afca3fe4d9567abd39901131657b13b43f3f12",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.2"
@@ -267,6 +273,10 @@
                 "MIT"
             ],
             "description": "Client for Renoks Gateway",
+            "support": {
+                "source": "https://github.com/renoks/gateway-client/tree/master",
+                "issues": "https://github.com/renoks/gateway-client/issues"
+            },
             "time": "2017-08-17 12:51:47"
         }
     ],
@@ -881,16 +891,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9a02332089ac48e704c70f6cefed30c224e3c0b0",
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0",
                 "shasum": ""
             },
             "require": {
@@ -926,7 +936,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-03 14:17:41"
+            "time": "2017-08-20 05:47:52"
         },
         {
             "name": "phpunit/phpunit",

@@ -6,7 +6,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:weblabstandard/renoks-gateway-client.git"
+      "url": "https://github.com/renoks/gateway-client"
     }
   ],
   "require-dev": {
