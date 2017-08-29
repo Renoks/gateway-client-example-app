@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d939554cbf6af5755facea2162c06fd",
-    "content-hash": "64f9a72e9d3fe3a90aa99cd478ec5d70",
+    "hash": "7240bfb66800660b7aa20c224e2d8dfa",
+    "content-hash": "910376d1770d8d2f93c87dba008f6d5e",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -239,17 +239,17 @@
             "time": "2016-08-06 14:39:51"
         },
         {
-            "name": "weblab-lv/renoks-gateway-client",
+            "name": "renoks/gateway-client",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/renoks/gateway-client.git",
-                "reference": "59afca3fe4d9567abd39901131657b13b43f3f12"
+                "reference": "e736d0a4acdcc6c07f6ba81b3b8f0e99c92c7c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/renoks/gateway-client/zipball/59afca3fe4d9567abd39901131657b13b43f3f12",
-                "reference": "59afca3fe4d9567abd39901131657b13b43f3f12",
+                "url": "https://api.github.com/repos/renoks/gateway-client/zipball/e736d0a4acdcc6c07f6ba81b3b8f0e99c92c7c55",
+                "reference": "e736d0a4acdcc6c07f6ba81b3b8f0e99c92c7c55",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +277,7 @@
                 "source": "https://github.com/renoks/gateway-client/tree/master",
                 "issues": "https://github.com/renoks/gateway-client/issues"
             },
-            "time": "2017-08-17 12:51:47"
+            "time": "2017-08-29 13:00:22"
         }
     ],
     "packages-dev": [
@@ -1734,7 +1734,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "weblab-lv/renoks-gateway-client": 20
+        "renoks/gateway-client": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

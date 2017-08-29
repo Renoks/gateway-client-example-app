@@ -1,5 +1,5 @@
 {
-  "name": "weblab-lv/renoks-gateway-client-example-app",
+  "name": "renoks/renoks-gateway-client-example-app",
   "description": "Example app to show usage off client for Renoks Gateway",
   "type": "project",
   "license": "MIT",
@@ -13,6 +13,6 @@
     "phpunit/phpunit": "^6.1"
   },
   "require": {
-    "weblab-lv/renoks-gateway-client": "dev-master"
+    "renoks/gateway-client": "dev-master"
   }
 }
