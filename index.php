@@ -2,7 +2,17 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$client = new WebLabLv\Renoks\Client\PriceClient('renoks-gateway-eumbrass.weblab.lv/api/v0.1', 'client', 'client');
+if (false === isset($endpoint)) {
+    throw new InvalidArgumentException('$endpoint variable must be defined to proceed');
+}
+if (false === isset($login)) {
+    throw new InvalidArgumentException('$login variable must be defined to proceed');
+}
+if (false === isset($password)) {
+    throw new InvalidArgumentException('$password variable must be defined to proceed');
+}
+
+$client = new WebLabLv\Renoks\Client\PriceClient($endpoint, $login, $password);
 $client->sendRequest();
 
 echo PHP_EOL;
