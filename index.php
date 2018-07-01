@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/config.php';
 
 
 if (false === isset($endpoint)) {
@@ -13,14 +14,21 @@ if (false === isset($password)) {
     throw new InvalidArgumentException('$password variable must be defined to proceed');
 }
 
+// get prices
 $client = new WebLabLv\Renoks\Client\PriceClient($endpoint, $login, $password);
-$client->withWatermark(false)->sendRequest();
+$client->withWatermark(true)->sendRequest();
 
 /** @var \WebLabLv\Renoks\Entity\Price $entity */
 foreach($client->getResponseEntities() as $entity) {
     print_r($entity);
     usleep(5000);
 }
-echo PHP_EOL;
+echo "\n\n";
 
-echo PHP_EOL;
+
+// create order
+$client = new \WebLabLv\Renoks\Client\OrderClient($endpoint, $login, $password);
+$client->create([
+    'product'  => 'test-product',
+    'quantity' => random_int(2, 8)
+]);
